@@ -4,3 +4,4 @@ COPY . /app
 WORKDIR /app
 CMD [ "php", "./hello.php" ]
 EXPOSE 80
+CMD php-start
